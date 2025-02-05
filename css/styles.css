@@ -6,11 +6,30 @@ body {
     text-align: center;
 }
 
+.container {
+
+    background-image: url(https://i.pinimg.com/originals/09/3c/41/093c41a031774c9ea13bbf790d5a4c69.jpg);
+    background-size: cover;
+    /* Ajusta a imagem para cobrir todo o fundo */
+    background-position: center;
+    /* Centraliza a imagem no fundo */
+    background-repeat: no-repeat;
+    /* Evita que a imagem se repita */
+    box-sizing: border-box;
+}
+
+
 header {
+    display: flex;
     background: #252525;
     color: white;
     padding: 15px 0;
+    flex-direction: row;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: space-between;
 }
+
 
 .logo {
     display: flex;
@@ -56,4 +75,10 @@ footer {
     background: #252525;
     color: white;
     padding: 10px 0;
+}
+
+.carrinho {
+    width: 34px;
+    height: 34px;
+    color: #ff6600;
 }
