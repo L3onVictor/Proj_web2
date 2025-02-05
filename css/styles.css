@@ -10,6 +10,8 @@ header {
     background: #252525;
     color: white;
     padding: 15px 0;
+    box-sizing: border-box;
+    ;
 }
 
 nav ul {
@@ -48,4 +50,8 @@ footer {
     background: #252525;
     color: white;
     padding: 10px 0;
+}
+
+.login{
+    justify-content: end;
 }
